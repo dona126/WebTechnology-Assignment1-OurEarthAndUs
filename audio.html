@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <!-- favicon -->
     <link rel="shortcut icon" href="Pictures/logo.jpg" />
-    <title>Reset Password - Our Earth And Us</title>
+    <title>Audio - Our Earth And Us</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -37,74 +37,45 @@
               <a class="nav-link" href="about.html">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">CONTACT US</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="photogallery.html">PHOTO GALLERY</a>
-            </li>
+                <a class="nav-link" href="contact.html">CONTACT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="signup.html">SIGN UP</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="login.html">LOG IN</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="photogallery.html">PHOTO GALLERY</a>
+                </li>
             
               
             
           </ul>
         </div>
     </nav>
-    
- 
     <br>
-    <form style="background-color: white;
+    <h3 style="text-align: center;color:  rgb(50, 65, 50);"> Listen what Earth wants to say!</h3>
+    <br><br> <br><br> <br><br> <br> <br><br>
+    <div style="text-align: center;" >
+    <audio controls="controls">
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+      </audio> 
+    </div>
+    <br> <br><br> <br><br> <br><br> <br><br> <br>
     
-    padding: 45px;
-    margin-top:35px;
-    margin-bottom:35px;
-    margin-left:300px;
-    margin-right:300px;" 
-
-     action="login.html" >
-        <p style="text-align: center;">Enter your email address and we'll send you a link to get back into
-             your account.
-        </p>
-        <br>
-        <div class="form-group">
-          <input type="email" class="form-control"  id="email"  placeholder="Email address">
-          
-        </div>
-        
-        
-        <!-- <button id="myButton" class="float-left submit-button" >Home</button> -->
-        <button  type="submit" class="btn btn-primary btn-block " onclick="forgot()">Send Log In Link</button>
-        
-        
-        <div style="text-align: center;">
-        <br>
-        <a href="login.html" style="text-align: left;">Already have an account?</a>
-        <br>
-        <a href="signup.html" style="text-align: right;">Don't have an account?</a> 
-        </div>
-
-    </form> 
-    
-
-    <br>
-    <br>
     <hr>
-    <div style="text-align: center; color: white;">
-        <h6>© 2021 Copyright: Our Earth And Us</h6>
+    <div style="text-align: center;">
+        <a href="index.html">© 2021 Copyright: Our Earth And Us</a>
     </div>
     <br>
-
-
-
     <style>
       body {
-        background-image: url('Pictures/log.jpg');
+        background-image: url('Pictures/audio.jpg');
         
       }
     </style>
-    <script>
-      function forgot() {
-        alert("Successfully sent Log In link!");
-      }
-      </script>
 </body>
 </html>
